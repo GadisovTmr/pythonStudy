@@ -1,11 +1,11 @@
 # 1 напишете прогу, которая проверяет выходной ли это день
+def day_of_week(n):
+    if n == 6 or n == 7:
+        print('это выходной день')
+    elif n >= 1 and n < 6:
+        print('это будний день')
+    else:
+        print('введен не день недели ')
 
-print('Введите день')
-dayofweek = int(input())
-if dayofweek == 6 or dayofweek == 7:
-    print('это выходной день') 
-elif dayofweek >= 1 and dayofweek < 6:
-    print('это будний день')
-else:
-    print('введен не день недели ')
 
+day_of_week(int(input('введите день недели в виде цифры ')))

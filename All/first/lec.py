@@ -1,4 +1,4 @@
-# типы данных: int, float, boolean, str, list, None
+# типы данных: int, float, boolean, str, list, None, value
 # print -  вывод  input -  ввод 
 # арифметика  / - деление // - деление в целых числах % - остаток от деления ** - возведение в степень 
 # round - округление, можно напимсать print(a:0.4)
@@ -93,13 +93,13 @@
 # list.remove('aasd') - удалит aasd из списка 
 # del list[0] - удалит 0 элемент в списке 
 
-def name_ofdunct(a):
-    if a == 1:
-        return 'целое'
-    elif a == 2.3:
-        return 23
-    else:
-        return
+# def name_ofdunct(a):
+#     if a == 1:
+#         return 'целое'
+#     elif a == 2.3:
+#         return 23
+#     else:
+#         return
 
 # arg = 2
 # print(name_ofdunct(arg))
