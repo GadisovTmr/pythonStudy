@@ -12,4 +12,11 @@
 # print(count, resule)
 
 
+# text = input('n=')
+# count = 0
+# for i in range(len(text)):
+#     if text[i].isdigit() == True:
+#         count = count + int(text[i])
+# print(count)
+
 
