@@ -5,7 +5,7 @@ n = int(input('введите n'))
 lis = list()
 result = 1;
 for i in range(n):
-    result=result * (i + 1)
+    result = result * (i + 1)
     lis.append(result)
 print(lis)
 

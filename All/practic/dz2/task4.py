@@ -3,8 +3,8 @@
 # промежутка [-N, N]. Найдите произведение элементов на указанных позициях(не индексах).
 
 
-pos1 = int(input('позиция 1= '))
-pos2 = int(input('позиция 2= '))
+pos_1 = int(input('позиция 1= '))
+pos_2 = int(input('позиция 2= '))
 n = int(input('n='))
 nob = n * (-1)
 lis = list()
@@ -14,5 +14,5 @@ while nob != n:
     nob = nob + 1
     lis.append(nob)
 print(lis)
-result = lis[pos1 - 1] * lis[pos2 - 1]
+result = lis[pos_1 - 1] * lis[pos_2 - 1]
 print(result)

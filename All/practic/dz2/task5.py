@@ -1,22 +1,22 @@
-# 5. ** Реализуйте алгоритм перемешивания списка. Без функции shuffle из модуля random.
+# 5. ** Реализуйте алгоритм перемешивания списка.
 import random
 
 n = int(input('n='))
-list1 = list()
-list2 = list()
+list_1 = list()
+list_2 = list()
 count = 0
-list1.append(count)
+list_1.append(count)
 randomizer = 0
 for i in range(n-1):
     count = count +1
-    list1.append(count)
-print(list1)
+    list_1.append(count)
+print(list_1)
 
 
 for i in range(n):
-    randomizer = list1[random.randint(0,n-1-i)]
-    list2.append(randomizer)
-    list1.remove(randomizer)
+    randomizer = list_1[random.randint(0,n-1-i)]
+    list_2.append(randomizer)
+    list_1.remove(randomizer)
 
-print(list2)
+print(list_2)
 
