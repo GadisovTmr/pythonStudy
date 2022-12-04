@@ -22,3 +22,11 @@
 #
 # print(count)
 
+def random_list (a):
+    lst = []
+    for i in range(a):
+        lst.append(i)
+    print(lst)
+
+random_list(5)
+
