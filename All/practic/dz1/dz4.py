@@ -1,15 +1,28 @@
 #  4 Напишите программу, которая по заданному номеру четверти, показывает
 # диапазон возможных координат точек в этой четверти (x и y)
 
-x = int(input('Введите номер плоскости  '))
-if x < 1 or x > 4:
-    print('Такой плоскости нет')
+# x = int(input('Введите номер плоскости  '))
+# if x < 1 or x > 4:
+#     print('Такой плоскости нет')
+# else:
+#     if x == 1:
+#         print('x > 0 and y > 0')
+#     elif x == 2:
+#         print('x < 0 and y > 0')
+#     elif x == 3:
+#         print('x < 0 and y < 0')
+#     elif x == 4:
+#         print('x > 0 and y < 0')
+
+first_item = int(input('Введите степень выраженности 1 пункта (эмоциональная неустойчивость)'))
+result = 0
+result = result + first_item
+n_item = int(input('Введите степень выраженности N пункта '))
+result = result + n_item
+if result < 10:
+    print('Общий балл равен ', result, ' декомпенсации нет')
 else:
-    if x == 1:
-        print('x > 0 and y > 0')
-    elif x == 2:
-        print('x < 0 and y > 0')
-    elif x == 3:
-        print('x < 0 and y < 0')
-    elif x == 4:
-        print('x > 0 and y < 0')
+    if result < 20:
+        print('Общий балл равен ', result, ' соответсвует декомпенсации непсихотического регистра')
+    if result > 20:
+        print('Общий балл равен ', result, ' соответсвует декомпенсации психотического регистра')

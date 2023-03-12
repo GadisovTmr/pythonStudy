@@ -139,3 +139,17 @@
 # users = ['user1', 'user2', 'user3', 'user4', 'user5']
 # data = list(enumerate(users))
 # print(data)
+
+
+
+
+lisst = [1,2,3,5,8,15,23,38]
+def d(x):
+    return x**2
+
+list = [(i, d(i)) for i in (lisst) if i%2 ==0]
+
+
+print(list)
+
+
