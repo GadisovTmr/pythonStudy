@@ -30,3 +30,6 @@
 # else:
 #     print('no')
 
+# Задача 8
+n = int(input(print("Сколько долек в длину?")))
+m = int(input(print("Сколько долек в ширину?")))
