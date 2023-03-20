@@ -22,14 +22,35 @@
 #         n = n // 10
 #     return summa
 #
-# firstpart = n%1000
-# secondpart = n//1000
-#
-# if sumofthree(firstpart) == sumofthree(secondpart):
-#     print('yes')
+# if n > 999999 or n<100000:
+#     print('Вы ввели неверный номер билета')
 # else:
-#     print('no')
+#     firstpart = n%1000
+#     secondpart = n//1000
+#     if sumofthree(firstpart) == sumofthree(secondpart):
+#         print('yes')
+#     else:
+#         print('no')
 
 # Задача 8
-n = int(input(print("Сколько долек в длину?")))
-m = int(input(print("Сколько долек в ширину?")))
+# n = int(input(print("Сколько долек в длину?")))
+# m = int(input(print("Сколько долек в ширину?")))
+# max=0
+# if n>=m:
+#     max = n
+# else:
+#     max=m
+# k = int(input(print("Сколько долек вы хотите отломить?")))
+# if k > m*n:
+#     print('Столько долек в шоколадке  нет;(')
+# elif k == m*n:
+#     print('Забирай всю')
+# elif k%2 != 0:
+#     print('Не получится(')
+# elif k> max:
+#     print('не получается(')
+# else:
+#     print('получится!')
+
+
+
